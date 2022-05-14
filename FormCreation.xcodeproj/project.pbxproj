@@ -13,6 +13,15 @@
 		4F99DED3282F96B300B51413 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4F99DED1282F96B300B51413 /* Main.storyboard */; };
 		4F99DED5282F96B400B51413 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4F99DED4282F96B400B51413 /* Assets.xcassets */; };
 		4F99DED8282F96B400B51413 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4F99DED6282F96B400B51413 /* LaunchScreen.storyboard */; };
+		4F99DEE1282F984800B51413 /* TextInputCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F99DEDF282F984800B51413 /* TextInputCell.swift */; };
+		4F99DEE2282F984800B51413 /* TextInputCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4F99DEE0282F984800B51413 /* TextInputCell.xib */; };
+		4F99DEE5282F989500B51413 /* ToggleViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F99DEE3282F989500B51413 /* ToggleViewCell.swift */; };
+		4F99DEE6282F989500B51413 /* ToggleViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4F99DEE4282F989500B51413 /* ToggleViewCell.xib */; };
+		4F99DEE8282F9CD900B51413 /* FormField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F99DEE7282F9CD900B51413 /* FormField.swift */; };
+		4F99DEEA282F9CF600B51413 /* TextInputForm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F99DEE9282F9CF600B51413 /* TextInputForm.swift */; };
+		4F99DEEC282F9D2300B51413 /* TextInputFormViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F99DEEB282F9D2300B51413 /* TextInputFormViewModel.swift */; };
+		4F99DEEE282F9D4400B51413 /* ToggleInputFormViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F99DEED282F9D4400B51413 /* ToggleInputFormViewModel.swift */; };
+		4F99DEF0282F9D6A00B51413 /* ToggleInputForm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F99DEEF282F9D6A00B51413 /* ToggleInputForm.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +33,15 @@
 		4F99DED4282F96B400B51413 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4F99DED7282F96B400B51413 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4F99DED9282F96B400B51413 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4F99DEDF282F984800B51413 /* TextInputCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextInputCell.swift; sourceTree = "<group>"; };
+		4F99DEE0282F984800B51413 /* TextInputCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TextInputCell.xib; sourceTree = "<group>"; };
+		4F99DEE3282F989500B51413 /* ToggleViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToggleViewCell.swift; sourceTree = "<group>"; };
+		4F99DEE4282F989500B51413 /* ToggleViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ToggleViewCell.xib; sourceTree = "<group>"; };
+		4F99DEE7282F9CD900B51413 /* FormField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormField.swift; sourceTree = "<group>"; };
+		4F99DEE9282F9CF600B51413 /* TextInputForm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextInputForm.swift; sourceTree = "<group>"; };
+		4F99DEEB282F9D2300B51413 /* TextInputFormViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextInputFormViewModel.swift; sourceTree = "<group>"; };
+		4F99DEED282F9D4400B51413 /* ToggleInputFormViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToggleInputFormViewModel.swift; sourceTree = "<group>"; };
+		4F99DEEF282F9D6A00B51413 /* ToggleInputForm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToggleInputForm.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +77,15 @@
 				4F99DECB282F96B300B51413 /* AppDelegate.swift */,
 				4F99DECD282F96B300B51413 /* SceneDelegate.swift */,
 				4F99DECF282F96B300B51413 /* ViewController.swift */,
+				4F99DEEF282F9D6A00B51413 /* ToggleInputForm.swift */,
+				4F99DEED282F9D4400B51413 /* ToggleInputFormViewModel.swift */,
+				4F99DEEB282F9D2300B51413 /* TextInputFormViewModel.swift */,
+				4F99DEE9282F9CF600B51413 /* TextInputForm.swift */,
+				4F99DEE7282F9CD900B51413 /* FormField.swift */,
+				4F99DEE3282F989500B51413 /* ToggleViewCell.swift */,
+				4F99DEE4282F989500B51413 /* ToggleViewCell.xib */,
+				4F99DEDF282F984800B51413 /* TextInputCell.swift */,
+				4F99DEE0282F984800B51413 /* TextInputCell.xib */,
 				4F99DED1282F96B300B51413 /* Main.storyboard */,
 				4F99DED4282F96B400B51413 /* Assets.xcassets */,
 				4F99DED6282F96B400B51413 /* LaunchScreen.storyboard */,
@@ -126,8 +153,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				4F99DED8282F96B400B51413 /* LaunchScreen.storyboard in Resources */,
+				4F99DEE6282F989500B51413 /* ToggleViewCell.xib in Resources */,
 				4F99DED5282F96B400B51413 /* Assets.xcassets in Resources */,
 				4F99DED3282F96B300B51413 /* Main.storyboard in Resources */,
+				4F99DEE2282F984800B51413 /* TextInputCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,9 +167,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4F99DEE8282F9CD900B51413 /* FormField.swift in Sources */,
 				4F99DED0282F96B300B51413 /* ViewController.swift in Sources */,
 				4F99DECC282F96B300B51413 /* AppDelegate.swift in Sources */,
 				4F99DECE282F96B300B51413 /* SceneDelegate.swift in Sources */,
+				4F99DEEC282F9D2300B51413 /* TextInputFormViewModel.swift in Sources */,
+				4F99DEEE282F9D4400B51413 /* ToggleInputFormViewModel.swift in Sources */,
+				4F99DEE5282F989500B51413 /* ToggleViewCell.swift in Sources */,
+				4F99DEE1282F984800B51413 /* TextInputCell.swift in Sources */,
+				4F99DEF0282F9D6A00B51413 /* ToggleInputForm.swift in Sources */,
+				4F99DEEA282F9CF600B51413 /* TextInputForm.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -295,6 +331,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -304,7 +341,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -323,6 +360,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -332,7 +370,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
